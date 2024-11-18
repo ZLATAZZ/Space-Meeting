@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="22"
+7-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="33" />
+8-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+10-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-69
+11-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-66
+12    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+12-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-78
+12-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:20-75
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-66
+13-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:20-63
+14
+15    <uses-feature android:glEsVersion="0x00030000" />
+15-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-52
+15-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-49
+16    <uses-feature
+16-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-91
+17        android:name="android.hardware.vulkan.version"
+17-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-63
+18        android:required="false" />
+18-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:64-88
+19    <uses-feature
+19-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-87
+20        android:name="android.hardware.microphone"
+20-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-59
+21        android:required="false" />
+21-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:60-84
+22    <uses-feature
+22-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-88
+23        android:name="android.hardware.touchscreen"
+23-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:17-60
+24        android:required="false" />
+24-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:61-85
+25    <uses-feature
+25-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:3-99
+26        android:name="android.hardware.touchscreen.multitouch"
+26-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:17-71
+27        android:required="false" />
+27-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:72-96
+28    <uses-feature
+28-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:3-108
+29        android:name="android.hardware.touchscreen.multitouch.distinct"
+29-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:17-80
+30        android:required="false" />
+30-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:81-105
+31
+32    <application android:extractNativeLibs="true" >
+32-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:3-27:17
+32-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-48
+33        <meta-data
+33-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+34            android:name="unity.splash-mode"
+34-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+35            android:value="0" />
+35-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+36        <meta-data
+36-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+37            android:name="unity.splash-enable"
+37-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+38            android:value="True" />
+38-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+39        <meta-data
+39-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+40            android:name="unity.launch-fullscreen"
+40-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+41            android:value="True" />
+41-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+42        <meta-data
+42-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-81
+43            android:name="notch.config"
+43-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-43
+44            android:value="portrait|landscape" />
+44-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:44-78
+45        <meta-data
+45-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-84
+46            android:name="unity.auto-report-fully-drawn"
+46-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-60
+47            android:value="true" />
+47-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:61-81
+48
+49        <activity
+49-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-26:16
+50            android:name="com.unity3d.player.UnityPlayerActivity"
+50-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:15-68
+51            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+51-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:184-365
+52            android:exported="true"
+52-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:437-460
+53            android:hardwareAccelerated="false"
+53-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:401-436
+54            android:launchMode="singleTask"
+54-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:152-183
+55            android:resizeableActivity="false"
+55-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:366-400
+56            android:screenOrientation="userPortrait"
+56-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:111-151
+57            android:theme="@style/UnityThemeSelector" >
+57-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:69-110
+58            <intent-filter>
+58-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:7-23:23
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:9-69
+59-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:19-66
+60
+61                <action android:name="android.intent.action.MAIN" />
+61-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:9-61
+61-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-58
+62            </intent-filter>
+63
+64            <meta-data
+64-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:7-82
+65                android:name="unityplayer.UnityActivity"
+65-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:18-58
+66                android:value="true" />
+66-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:59-79
+67            <meta-data
+67-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:7-70
+68                android:name="notch_support"
+68-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:18-46
+69                android:value="true" />
+69-->D:\Unity\Catch Your Dream\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:47-67
+70        </activity>
+71    </application>
+72
+73</manifest>
